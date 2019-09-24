@@ -1,0 +1,6 @@
+driverClassName=org.h2.Driver
+url=jdbc:h2:mem:myDb;INIT=RUNSCRIPT FROM 'classpath:sql/h2/PORTFOLIO_H2_TMP.sql';DB_CLOSE_DELAY=-1
+username=sa
+password=sa
+spring.h2.console.enabled=true 
+debug=true
